@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav, .right-nav {
+    margin: 5px;
+}
+
+.left-nav nav a {
+    margin: 0 8px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+main section {
+    width: 50%;
+    height: 600px;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section img {
+    width: 100%;
+    height: 600px;
+}
+
+aside {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    height: 300px;
+}
+
+aside section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
